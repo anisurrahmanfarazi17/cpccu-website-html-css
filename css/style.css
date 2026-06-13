@@ -303,3 +303,319 @@ color:white;
 border:none;
 cursor:pointer;
 }
+
+.nav-links a.active{
+color:#38bdf8;
+}
+
+.executive-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.executive-card{
+background:#1e293b;
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+}
+
+.executive-card:hover{
+transform:translateY(-8px);
+}
+
+.executive-card img{
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:20px;
+border:4px solid #38bdf8;
+}
+
+.role{
+color:#38bdf8;
+font-weight:600;
+margin-bottom:15px;
+}
+
+.join-team{
+padding:100px 20px;
+text-align:center;
+background:#111827;
+}
+
+.join-team h2{
+margin-bottom:20px;
+font-size:2.5rem;
+}
+
+.join-team p{
+margin-bottom:30px;
+color:#cbd5e1;
+}
+.about-grid,
+.events-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.about-card{
+    background:#1e293b;
+    padding:40px;
+    border-radius:20px;
+    margin-bottom:40px;
+}
+
+.timeline{
+    padding:100px 0;
+}
+
+.timeline-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.timeline-item{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    width:250px;
+    text-align:center;
+}
+
+.featured-event{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    background:#1e293b;
+    border-radius:25px;
+    padding:50px;
+    margin-bottom:60px;
+}
+
+.event-tag{
+    background:#38bdf8;
+    color:#000;
+    padding:8px 15px;
+    border-radius:20px;
+    font-weight:600;
+}
+
+.badge{
+    display:inline-block;
+    margin-bottom:15px;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:.8rem;
+    font-weight:600;
+}
+
+.workshop{
+    background:#22c55e;
+    color:#000;
+}
+
+.contest{
+    background:#f59e0b;
+    color:#000;
+}
+
+.bootcamp{
+    background:#38bdf8;
+    color:#000;
+}
+.gallery-section{
+padding:40px 0 80px;
+}
+
+.gallery-grid{
+width:90%;
+max-width:1200px;
+margin:auto;
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:20px;
+}
+
+.gallery-grid img{
+
+width:100%;
+height:250px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:.4s;
+cursor:pointer;
+}
+
+.gallery-grid img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 15px 30px rgba(0,0,0,.3);
+}
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.contact-form{
+max-width:700px;
+margin:auto;
+
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+
+padding:16px;
+
+border:none;
+
+border-radius:10px;
+
+background:#1e293b;
+
+color:white;
+
+font-size:1rem;
+}
+
+.contact-form button{
+border:none;
+cursor:pointer;
+}
+
+.social-section{
+padding:80px 20px;
+text-align:center;
+}
+
+.social-links{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.social-links a{
+
+background:#1e293b;
+
+padding:12px 25px;
+
+border-radius:10px;
+
+color:white;
+
+transition:.3s;
+}
+
+.social-links a:hover{
+background:#38bdf8;
+color:black;
+}
+
+.map-section{
+padding:80px 20px;
+}
+
+.map-placeholder{
+
+max-width:1000px;
+
+margin:auto;
+
+padding:80px;
+
+background:#1e293b;
+
+border-radius:20px;
+
+text-align:center;
+}
+.featured-event-home{
+padding:100px 20px;
+}
+
+.featured-box{
+
+background:#1e293b;
+
+padding:50px;
+
+border-radius:25px;
+
+text-align:center;
+}
+
+.testimonials{
+padding:100px 20px;
+}
+
+.join-section{
+
+padding:120px 20px;
+
+text-align:center;
+
+background:#111827;
+}
+
+.join-section h2{
+font-size:2.5rem;
+margin-bottom:20px;
+}
+
+.join-section p{
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+color:#cbd5e1;
+}
+
+.footer-content{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+width:90%;
+
+max-width:1200px;
+
+margin:auto;
+
+text-align:left;
+}
+
+.footer-content h3{
+margin-bottom:15px;
+color:#38bdf8;
+}
+
+.footer-content a{
+color:#cbd5e1;
+}
+
+.copyright{
+margin-top:30px;
+text-align:center;
+}
